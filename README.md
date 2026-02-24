@@ -1,2 +1,7 @@
-# plant-leaf-disease-classification-app
-This project is a deep learning–based plant leaf disease classification application developed using MATLAB App Designer. It supports single image and batch dataset analysis, performs preprocessing (RGB conversion and 224×224 resizing), computes accuracy and confusion matrix metrics, exports CSV reports, and visualizes performance across test sets.
+Leaf Disease Classification Application (MATLAB App Designer)
+
+This project is a deep learning–based plant leaf disease classification application developed using MATLAB App Designer. The system loads a pretrained convolutional neural network model at startup and provides an intuitive interface for both single image analysis and batch dataset evaluation. In the Analyze tab, users can upload JPG, JPEG, or PNG leaf images, which are automatically converted to RGB format and resized to 224×224 pixels before being fed into the trained model. The application outputs the predicted class, confidence score, and a binary health status (Healthy/Diseased), along with disease-specific treatment recommendations.
+
+The Batch & Demo tab enables structured dataset evaluation using predefined test folders. The system performs batch classification, extracts labels from folder names, and computes performance metrics including accuracy, confusion matrix values (TP, TN, FP, FN), and misclassification counts. Results are saved as detailed and summary CSV files for further analysis. The Statistics tab visualizes model accuracy across different test sets using bar charts, allowing performance comparison and consistency evaluation. The About tab provides documentation regarding the system’s purpose and workflow.
+
+This application is designed for academic research and experimental evaluation of deep learning–based plant disease detection models.
